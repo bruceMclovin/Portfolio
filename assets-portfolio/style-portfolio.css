@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* fonts and header */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(100, 92, 107);
+}
+    header {
+        padding: 30px 40px;
+        background-color: rgb(100, 92, 107);
+    }
+    header h1 {
+        font-weight: bolder;
+        font-size: 45px;
+        color:bisque;
+        margin: 0;
+        display:inline;
+    }
+    header a {
+        text-decoration: none;
+        color:bisque;
+    }
+    header nav{
+        float:right;
+        margin: 10px 0;
+    }
+    header nav ul li{
+        display: inline;
+    }
+    header nav ul li a{
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 22px;
+    }
